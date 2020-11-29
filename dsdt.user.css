@@ -185,6 +185,9 @@
         border-top: 1px solid #696969;
         border-bottom: 1px solid #696969;
     }
+    #main .posts::after {
+        background: #424242;
+    }
 
     /* Images */
     .btn,
