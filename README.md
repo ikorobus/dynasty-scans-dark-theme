@@ -7,12 +7,12 @@ There's just a couple of lines so if you want to edit any color locally, it shou
 
 [![Install](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://raw.githubusercontent.com/ikorobus/DynastyScansDarkTheme/main/dsdt.user.css)
 
-### Version:
+### Version: 0.3.2
 There's some things left to improve:
 - Reading Lists table rows hovering.
 - Adding variables for easier and conjunct editing somewhere in the future.
 
-Aside from that, everything else's pretty much done, hope this helps you!!
+Aside from that, everything else's pretty much done, hope this helps you!
 
 ### Screenshots:
 <img align="center" src="https://raw.githubusercontent.com/ikorobus/DynastyScansDarkTheme/main/images/sample01.png"></img>
