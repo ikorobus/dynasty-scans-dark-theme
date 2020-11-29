@@ -1,33 +1,34 @@
 /* ==UserStyle==
-@name           Dynasty Scans Dark Theme (WIP)
+@name           Dynasty Scans Dark Theme
 @namespace      github.com/ikorobus
-@version        0.2.1
-@description    Simple dark theme for Dynasty Scans in progress - 28/11/2020
+@version        0.3.1
+@description    Simple dark theme for Dynasty Scans
 @author         Cynthia T. (https://github.com/ikorobus)
 @homepageURL    https://github.com/ikorobus/DynastyScansDarkTheme
 @supportURL     https://github.com/ikorobus/DynastyScansDarkTheme/issues
 @updateURL      https://raw.githubusercontent.com/ikorobus/DynastyScansDarkTheme/main/dsdt.user.css
 @preprocessor   stylus
 ==/UserStyle== */
-@-moz-document domain("dynasty-scans.com") { 
+@-moz-document domain("dynasty-scans.com") {
     /* TO-DO LIST:
-        > Forum
         > Reading Lists Hover Table Rows (I have no idea how to do this actually)
-    Disclaimer: This is very poorly written for how little lines were needed, sorry and good luck!!
+        > Add variables for easier and conjunct editing somewhere in the future
+    Disclaimer: This is probably poorly written for how little lines were needed, sorry and good luck!!
     */
-    
-    html, body {
+    html,
+    body {
         background: #111;
     }
     #content.container {
         background: #202020;
-        color: #ffffff;
+        color: #eee;
+        box-shadow: 0 0 10px #000;
     }
     a:link {
         color: #1c99d7
     }
     a:visited {
-        color: #8034e2
+        color: #9558BE
     }
     a:hover {
         color: #FF7A4F
@@ -38,38 +39,38 @@
     .nav-list .nav-header {
         text-shadow: 0px 0px #000000;
     }
-    
+
     #main.chapters .chapter,
     #main.chapters .chapter .title,
-    #main.chapters .chapter .title small, 
+    #main.chapters .chapter .title small,
     #main.tags.show .tag-tags,
-    .thumbnail .caption{
-        color: #ffffff
+    .thumbnail .caption {
+        color: #eee
     }
-    
     .thumbnail {
-        border: 1px solid #3e3e3e;
+        border: 1px solid #424242;
+        box-shadow: 0px 0px 5px 0px rgb(13, 13, 13);
     }
-
     #main .nav a:hover {
-        background: #0b0b0b
+        background: #161616;
     }
-    
     #main .pagination a {
-        background-color: #263340;
-        border-color: #003366;
-        color: #ffffff;
+        background-color: #15395c;
+        border-color: #20486f;
+        color: #eee;
     }
-    
     .pagination ul > .disabled > span,
     .pagination ul > .disabled > a,
     .pagination ul > .disabled > a:hover,
     .pagination ul > .disabled > a:focus {
         color: #999999;
-        background-color: #1a242f;
+        background-color: #1b2938;
         cursor: default;
     }
-    
+    .authors,
+    .scanlators {
+        color: #ccc;
+    }
     .pagination ul > li > a,
     .pagination ul > li > span {
         border: 1px solid #ddd0;
@@ -83,40 +84,44 @@
 
     /* Tags */
     a.label {
-        color: #ffffff
+        color: #eee;
     }
 
     /* Login */
     .well,
     .well legend {
+        padding: 4px 19px;
         background-color: #282828;
         border: 1px solid #424242;
-        color: #ffffff;
+        color: #eee;
+    }
+    .well .form-actions {
+        border-color: #424242;
     }
     #main a.btn {
         background-color: #282828;
         background-image: linear-gradient(rgb(87, 87, 87), rgba(21, 21, 21, 0));
-        border-color: #4F4F4F;
-        color: #ffffff;
+        border-color: #222;
+        color: #eee;
         text-shadow: 0px 0px #000000;
     }
 
     /* Suggestion Status */
     .users.suggestions table tbody tr td {
-        background: #0000
+        background: #0000;
     }
 
     /* Lists */
     .table-striped th,
     .table-striped td {
-        border-top-color: #575757
+        border-top-color: #424242;
     }
-    .table-striped tbody tr:hover {
-        background: #F00
+    .table tbody tr:hover {
+        color: #333333;
     }
     .table-striped tbody > tr:nth-child(odd) > td,
     .table-striped tbody > tr:nth-child(odd) > th {
-        background: #3939399E
+        background: #3939399E;
     }
     .table-striped tr:hover td {
         background-color: #535353;
@@ -124,36 +129,79 @@
 
     /* Chapter */
     #reader .pages-list a {
-        color: #ffffff;
+        color: #eee;
+    }
+    .icon-calendar {
+        filter: invert(1);
+    }
+    i:not(.icon-plus, .irc) {
+        filter: invert(1);
     }
 
     /* Forum */
     #main .posts .forum_post .info {
         background: #202020;
     }
+    #main.topics.index .forum_topic {
+        border-bottom: 1px solid #424242;
+    }
     .toolbar {
-        background: #202020
+        background: #202020;
+        border-bottom: 1px solid #424242;
     }
     #main.topics.index .forum_topic:nth-child(odd) {
         background: #2F2F2F;
     }
+    .views_count,
+    .posts_count {
+        filter: invert(1);
+    }
     blockquote p {
-        color: #ffffff;
+        color: #bbb;
+    }
+    blockquote {
+        border-left: 5px solid #424242;
+    }
+    #main .posts .forum_post .info {
+        border-top: 1px solid #424242;
+        border-bottom: 1px solid #424242;
+        background: #3939399E
+    }
+    .thumbnail:hover {
+        box-shadow: 0px 0px 8px 0px rgb(14, 94, 213);
+    }
+    #main .posts .forum_post .info .time {
+        color: #bbb;
+    }
+    hr {
+        /* hahahahahahahahaha lmao */
+        border-top: 1px solid #696969;
+        border-bottom: 1px solid #696969;
     }
 
+    /* Images */
+    .btn,
+    .btn:hover {
+        background-color: #282828;
+        background-image: linear-gradient(rgb(87, 87, 87), rgba(21, 21, 21, 0));
+        border-color: #222;
+        color: #eee;
+        text-shadow: 0px 0px #000000;
+        border-left: none;
+    }
 
     /* Notification Message */
     .alert-info {
         background-color: #263340;
         border-color: #103C68;
-        color: #ffffff;
-        text-shadow: 0px 0px #000000
+        color: #eee;
+        text-shadow: 0px 0px #000000;
     }
 
     .alert.alert-error {
         background-color: #402626;
         border-color: #600;
-        color: #ffffff;
-        text-shadow: 0px 0px #000000
+        color: #eee;
+        text-shadow: 0px 0px #000000;
     }
 }
