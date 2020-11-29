@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dynasty Scans Dark Theme
 @namespace      github.com/ikorobus
-@version        0.3.1
+@version        0.3.2
 @description    Simple dark theme for Dynasty Scans
 @author         Cynthia T. (https://github.com/ikorobus)
 @homepageURL    https://github.com/ikorobus/DynastyScansDarkTheme
@@ -132,12 +132,18 @@
     #reader .pages-list a {
         color: #eee;
     }
-    .icon-calendar {
+    .icon-calendar, 
+    .icon-pencil, 
+    .icon-exclamation-sign {
         filter: invert(1);
     }
-    i:not(.icon-plus, .irc) {
+    i:not(.icon-plus):not(.icon-bullhorn):not(.icon-list) {
         filter: invert(1);
     }
+    .btn-group>.dropdown-toggle .caret {
+        filter: invert(1);
+    }
+
 
     /* Forum */
     #main .posts .forum_post .info {
