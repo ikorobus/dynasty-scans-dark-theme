@@ -1,0 +1,159 @@
+/* ==UserStyle==
+@name           Dynasty Scans Dark Theme (WIP)
+@namespace      github.com/ikorobus
+@version        0.2.1
+@description    Simple dark theme for Dynasty Scans in progress - 28/11/2020
+@author         Cynthia Tristán
+@homepageURL    https://github.com/ikorobus/DynastyScansDarkTheme
+@supportURL     https://github.com/ikorobus/DynastyScansDarkTheme/issues
+@updateURL      https://raw.githubusercontent.com/ikorobus/DynastyScansDarkTheme/main/dsdt.user.css
+@preprocessor   stylus
+==/UserStyle== */
+@-moz-document domain("dynasty-scans.com") { 
+    /* TO-DO LIST:
+        > Forum
+        > Reading Lists Hover Table Rows (HOW ??????????)
+    Disclaimer: This is very poorly written for how little lines were needed, sorry and good luck!!
+    */
+    
+    html, body {
+        background: #111;
+    }
+    #content.container {
+        background: #202020;
+        color: #ffffff;
+    }
+    a:link {
+        color: #1c99d7
+    }
+    a:visited {
+        color: #8034e2
+    }
+    a:hover {
+        color: #FF7A4F
+    }
+
+    /* Main Page */
+    .nav-list > li > a,
+    .nav-list .nav-header {
+        text-shadow: 0px 0px #000000;
+    }
+    
+    #main.chapters .chapter,
+    #main.chapters .chapter .title,
+    #main.chapters .chapter .title small, 
+    #main.tags.show .tag-tags,
+    .thumbnail .caption{
+        color: #ffffff
+    }
+    
+    .thumbnail {
+        border: 1px solid #3e3e3e;
+    }
+
+    #main .nav a:hover {
+        background: #0b0b0b
+    }
+    
+    #main .pagination a {
+        background-color: #263340;
+        border-color: #003366;
+        color: #ffffff;
+    }
+    
+    .pagination ul > .disabled > span,
+    .pagination ul > .disabled > a,
+    .pagination ul > .disabled > a:hover,
+    .pagination ul > .disabled > a:focus {
+        color: #999999;
+        background-color: #1a242f;
+        cursor: default;
+    }
+    
+    .pagination ul > li > a,
+    .pagination ul > li > span {
+        border: 1px solid #ddd0;
+    }
+
+    /* Forms */
+    .form-actions {
+        background-color: #282828;
+        border-top: 1px solid #424242;
+    }
+
+    /* Tags */
+    a.label {
+        color: #ffffff
+    }
+
+    /* Login */
+    .well,
+    .well legend {
+        background-color: #282828;
+        border: 1px solid #424242;
+        color: #ffffff;
+    }
+    #main a.btn {
+        background-color: #282828;
+        background-image: linear-gradient(rgb(87, 87, 87), rgba(21, 21, 21, 0));
+        border-color: #4F4F4F;
+        color: #ffffff;
+        text-shadow: 0px 0px #000000;
+    }
+
+    /* Suggestion Status */
+    .users.suggestions table tbody tr td {
+        background: #0000
+    }
+
+    /* Lists */
+    .table-striped th,
+    .table-striped td {
+        border-top-color: #575757
+    }
+    .table-striped tbody tr:hover {
+        background: #F00
+    }
+    .table-striped tbody > tr:nth-child(odd) > td,
+    .table-striped tbody > tr:nth-child(odd) > th {
+        background: #3939399E
+    }
+    .table-striped tr:hover td {
+        background-color: #535353;
+    }
+
+    /* Chapter */
+    #reader .pages-list a {
+        color: #ffffff;
+    }
+
+    /* Forum */
+    #main .posts .forum_post .info {
+        background: #202020;
+    }
+    .toolbar {
+        background: #202020
+    }
+    #main.topics.index .forum_topic:nth-child(odd) {
+        background: #2F2F2F;
+    }
+    blockquote p {
+        color: #ffffff;
+    }
+
+
+    /* Notification Message */
+    .alert-info {
+        background-color: #263340;
+        border-color: #103C68;
+        color: #ffffff;
+        text-shadow: 0px 0px #000000
+    }
+
+    .alert.alert-error {
+        background-color: #402626;
+        border-color: #600;
+        color: #ffffff;
+        text-shadow: 0px 0px #000000
+    }
+}
