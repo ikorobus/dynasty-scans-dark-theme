@@ -26,13 +26,13 @@
         box-shadow: 0 0 10px #000;
     }
     a:link {
-        color: #1c99d7
+        color: #1c99d7;
     }
     a:visited {
-        color: ##1c99d7
+        color: #1c99d7;
     }
     a:hover {
-        color: #FF7A4F
+        color: #FF7A4F;
     }
 
     /* Main Page */
