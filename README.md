@@ -12,7 +12,7 @@ There's some things left to improve:
 - Reading Lists table rows hovering.
 - Adding variables for easier and conjunct editing somewhere in the future...?
 
-I should note that it only works on the vanilla site, I have yet to try any user scripts since I personally don't use any; aside from that, everything else's pretty much done, hope this helps you!
+I should note that it was tested only on the vanilla site, I have yet to try any user scripts since I personally don't use any; aside from that, everything else's pretty much done, hope this helps you!
 
 ### Screenshots:
 <img align="center" src="https://raw.githubusercontent.com/ikorobus/DynastyScansDarkTheme/main/images/sample01.png"></img>
