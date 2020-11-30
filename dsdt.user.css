@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dynasty Scans Dark Theme
 @namespace      github.com/ikorobus
-@version        0.3.2
+@version        0.3.3
 @description    Simple dark theme for Dynasty Scans
 @author         Cynthia T. (https://github.com/ikorobus)
 @homepageURL    https://github.com/ikorobus/DynastyScansDarkTheme
@@ -40,7 +40,6 @@
     .nav-list .nav-header {
         text-shadow: 0px 0px #000000;
     }
-
     #main.chapters .chapter,
     #main.chapters .chapter .title,
     #main.chapters .chapter .title small,
@@ -144,7 +143,6 @@
         filter: invert(1);
     }
 
-
     /* Forum */
     #main .posts .forum_post .info {
         background: #202020;
@@ -162,6 +160,9 @@
     .views_count,
     .posts_count {
         filter: invert(1);
+    }
+    .btn-toolbar a {
+        color: #eee;
     }
     blockquote p {
         color: #bbb;
