@@ -10,9 +10,9 @@ There's just a couple of lines so if you want to edit any color locally, it shou
 ### Version: 0.3.2
 There's some things left to improve:
 - Reading Lists table rows hovering.
-- Adding variables for easier and conjunct editing somewhere in the future.
+- Adding variables for easier and conjunct editing somewhere in the future...?
 
-Aside from that, everything else's pretty much done, hope this helps you!
+I should note that it only works on the vanilla site, I have yet to try any user scripts since I personally don't use any; aside from that, everything else's pretty much done, hope this helps you!
 
 ### Screenshots:
 <img align="center" src="https://raw.githubusercontent.com/ikorobus/DynastyScansDarkTheme/main/images/sample01.png"></img>
