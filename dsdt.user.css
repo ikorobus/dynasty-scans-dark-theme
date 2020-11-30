@@ -11,10 +11,24 @@
 @preprocessor   stylus
 ==/UserStyle== */
 @-moz-document domain("dynasty-scans.com") {
-    /* TO-DO LIST:
+    /* 
+    TO-DO LIST:
         > Reading Lists Hover Table Rows (I have no idea how to do this actually)
         > Add variables for easier and conjunct editing somewhere in the future
     Disclaimer: This is probably poorly written for how little lines were needed, sorry and good luck!!
+    
+    INDEX LIST:
+        1. Main Page
+        2. Forms
+        3. Tags
+        4. Login
+        5. Suggestion Status
+        5. Lists
+        6. Chapter (Reader)
+        7. Icons
+        8. Forum
+        9. Images
+       10. Notification Messages
     */
     html,
     body {
@@ -131,15 +145,12 @@
     #reader .pages-list a {
         color: #eee;
     }
-    .icon-calendar,
-    .icon-pencil,
-    .icon-exclamation-sign {
-        filter: invert(1);
-    }
-    i:not(.icon-plus):not(.icon-bullhorn):not(.icon-list) {
-        filter: invert(1);
-    }
-    .btn-group > .dropdown-toggle .caret {
+
+    /* Icons */
+    i:not(.icon-plus):not(.icon-bullhorn):not(.icon-list),
+    .btn-group > .dropdown-toggle .caret,
+    .btn-small [class^="icon-list"],
+    .btn-small [class*=" icon-list"] {
         filter: invert(1);
     }
 
