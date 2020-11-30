@@ -26,13 +26,13 @@
         box-shadow: 0 0 10px #000;
     }
     a:link {
-        color: #1c99d7;
+        color: #1c99d7
     }
     a:visited {
-        color: #1c99d7;
+        color: #1c99d7
     }
     a:hover {
-        color: #FF7A4F;
+        color: #FF7A4F
     }
 
     /* Main Page */
@@ -132,15 +132,15 @@
     #reader .pages-list a {
         color: #eee;
     }
-    .icon-calendar, 
-    .icon-pencil, 
+    .icon-calendar,
+    .icon-pencil,
     .icon-exclamation-sign {
         filter: invert(1);
     }
     i:not(.icon-plus):not(.icon-bullhorn):not(.icon-list) {
         filter: invert(1);
     }
-    .btn-group>.dropdown-toggle .caret {
+    .btn-group > .dropdown-toggle .caret {
         filter: invert(1);
     }
 
