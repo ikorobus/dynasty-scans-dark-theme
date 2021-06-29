@@ -1,8 +1,8 @@
 /* ==UserStyle==
 @name           Dynasty Scans Dark Theme
 @namespace      github.com/ikorobus
-@version        0.3.3
-@description    Simple dark theme for Dynasty Scans
+@version        0.4.0
+@description    Simple Dark Theme for Dynasty Scans
 @author         Cynthia T. (https://github.com/ikorobus)
 @homepageURL    https://github.com/ikorobus/dynasty-scans-dark-theme
 @supportURL     https://github.com/ikorobus/dynasty-scans-dark-theme/issues
@@ -13,7 +13,7 @@
 @-moz-document domain("dynasty-scans.com") {
     /* 
     TO-DO LIST:
-        > Add variables for easier somewhere in the future although too lazy
+        > Add variables for easier somewhere in the future?
     Disclaimer: This is probably poorly written :P
     
     INDEX LIST:
