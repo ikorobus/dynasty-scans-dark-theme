@@ -13,9 +13,8 @@
 @-moz-document domain("dynasty-scans.com") {
     /* 
     TO-DO LIST:
-        > Reading Lists Hover Table Rows (I have no idea how to do this actually)
-        > Add variables for easier and conjunct editing somewhere in the future
-    Disclaimer: This is probably poorly written for how little lines were needed, sorry and good luck!!
+        > Add variables for easier somewhere in the future although too lazy
+    Disclaimer: This is probably poorly written :P
     
     INDEX LIST:
         1. Main Page
@@ -24,6 +23,7 @@
         4. Login
         5. Suggestion Status
         5. Lists
+         5.1 Table List Hovering
         6. Chapter (Reader)
         7. Icons
         8. Forum
@@ -141,7 +141,13 @@
         background-color: #535353;
     }
 
-    /* Chapter */
+        /* Finally, Table List Hovering */
+        .table.table-striped.table-links tbody tr:hover > td {
+            background-color: #424242 !important;
+            color: #eee;
+        }
+
+    /* Chapter (Reader) */
     #reader .pages-list a {
         color: #eee;
     }
@@ -225,5 +231,10 @@
         border-color: #600;
         color: #eee;
         text-shadow: 0px 0px #000000;
+    }
+
+    /* // Source Code Color ? lmao // */
+    body {
+        color: white;
     }
 }
