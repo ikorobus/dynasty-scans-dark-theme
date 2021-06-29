@@ -19,3 +19,4 @@ I should note that it was tested only on the vanilla site, I have yet to try any
 <img align="center" src="https://raw.githubusercontent.com/ikorobus/dynasty-scans-dark-theme/main/images/sample04.png"></img>
 <img align="center" src="https://raw.githubusercontent.com/ikorobus/dynasty-scans-dark-theme/main/images/sample05.png"></img>
 <img align="center" src="https://raw.githubusercontent.com/ikorobus/dynasty-scans-dark-theme/main/images/sample03.png"></img>
+
