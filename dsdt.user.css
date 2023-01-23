@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Dynasty Scans Dark Theme
 @namespace      github.com/ikorobus
-@version        0.4.0
+@version        0.4.2.0
 @description    Simple Dark Theme for Dynasty Scans
 @author         Cynthia T. (https://github.com/ikorobus)
 @homepageURL    https://github.com/ikorobus/dynasty-scans-dark-theme
@@ -90,6 +90,11 @@
         border: 1px solid #ddd0;
     }
 
+    .label {
+        background-color: #515151;
+        color: #e4e4e4;
+    }
+
     /* Forms */
     .form-actions {
         background-color: #282828;
@@ -141,11 +146,11 @@
         background-color: #535353;
     }
 
-        /* Finally, Table List Hovering */
-        .table.table-striped.table-links tbody tr:hover > td {
-            background-color: #424242 !important;
-            color: #eee;
-        }
+    /* Finally, Table List Hovering */
+    .table.table-striped.table-links tbody tr:hover > td {
+        background-color: #424242 !important;
+        color: #eee;
+    }
 
     /* Chapter (Reader) */
     #reader .pages-list a {
