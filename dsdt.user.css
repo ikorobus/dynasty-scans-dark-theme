@@ -90,11 +90,6 @@
         border: 1px solid #ddd0;
     }
 
-    .label {
-        background-color: #515151;
-        color: #e4e4e4;
-    }
-
     /* Forms */
     .form-actions {
         background-color: #282828;
@@ -102,10 +97,37 @@
     }
 
     /* Tags */
+    .label {
+        background-color: #515151;
+        color: #e4e4e4;
+    }
+    
     a.label {
         color: #eee;
     }
-
+    
+    /* Dropdown Menu */
+    .dropdown-menu, .dropdown-menu>li>a {
+        color: #eee;
+        background-color: #282828;
+    }
+    
+    .dropdown-menu .divider {
+        border-bottom: 1px solid #515151;
+        background: #515151;
+    }
+    
+    .dropdown-menu>li>a:hover {
+        background-image: linear-gradient(to bottom, #124c87, #003366);
+    }
+    
+    /* Text Area */
+    textarea, input {
+        color: #eee;
+        background: #3a3a3a;
+        border: 1px solid #282828;
+    }
+    
     /* Login */
     .well,
     .well legend {
@@ -155,6 +177,10 @@
     /* Chapter (Reader) */
     #reader .pages-list a {
         color: #eee;
+    }
+    
+    #main.images.show #new_forum_post {
+        border-top: 1px solid #515151;
     }
 
     /* Icons */
