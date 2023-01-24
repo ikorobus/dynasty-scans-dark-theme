@@ -8,6 +8,7 @@ There's just a couple of lines so if you want to edit any color locally, it shou
 [![Install](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://raw.githubusercontent.com/ikorobus/dynasty-scans-dark-theme/main/dsdt.user.css)
 
 ### Version: 0.4.2.0
+Originally released on Hallowween of 2020.
 
 I should note that it was tested only on the vanilla site, I personally don't use many scripts; aside from that, that's it for now, hope you like it.
 
