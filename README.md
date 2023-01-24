@@ -14,7 +14,7 @@ There's some things left to improve:
 I should note that it was tested only on the vanilla site (issue any bugs you encounter!), I have yet to try any user scripts since I personally don't use any; aside from that, everything else's pretty much done, hope you like it.
 
 ### Screenshots:
-<img align="center" src="https://raw.githubusercontent.com/ikorobus/dynasty-scans-dark-theme/main/images/sample01v2023.png"></img>
+<img align="center" src="https://raw.githubusercontent.com/ikorobus/dynasty-scans-dark-theme/main/images/sample01v2023 fix.png"></img>
 <img align="center" src="https://raw.githubusercontent.com/ikorobus/dynasty-scans-dark-theme/main/images/sample02v2023.png"></img>
 <img align="center" src="https://raw.githubusercontent.com/ikorobus/dynasty-scans-dark-theme/main/images/sample04.png"></img>
 <img align="center" src="https://raw.githubusercontent.com/ikorobus/dynasty-scans-dark-theme/main/images/sample05.png"></img>
